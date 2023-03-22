@@ -2,11 +2,12 @@
 import { ref } from 'vue'
 
 
-const msg = ref('footer11')
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <div>
+    
+  </div>
 
 </template>
 

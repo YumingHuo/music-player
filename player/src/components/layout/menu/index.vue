@@ -1,12 +1,13 @@
 <script setup lang="ts">
+
+import MenuList from './menulist.vue'
 import { ref } from 'vue'
 
 
-const msg = ref('menu')
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <MenuList />
 
 </template>
 
