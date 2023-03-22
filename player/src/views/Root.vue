@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Menu from '@/components/layout/menu/index.vue'
+import Footer from '@/components/layout/menu/index.vue'
 import { ref } from 'vue'
 
 
@@ -6,30 +8,32 @@ const msg = ref('首页')
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-  <div class="box">
-    <ul>
-      <li>12123</li>
-      <li>12123</li>
-      <li>12123</li>
-      <li>12123</li>
-    </ul>
-    <p>niahoahao</p>
+  <div class="module">
+    <div class="module-left">
+      <Menu />
+    </div>
+    <div class="module-main"> 
+      <router-view />
+      <div>
+        <Footer />
+      </div>
+    </div>
   </div>
-
 </template>
 
 <style scoped lang="scss">
+$orangeColor: #f60;
+$greyColor: #f3f3f3;
 
-$orangeColor:#f60;
-$greyColor:#f3f3f3; 
-  .box {
-    color: $orangeColor;
-    ul li {
-      background: $greyColor;
-    }
-    p {
-      color: $orangeColor;
-    }
+.box {
+  color: $orangeColor;
+
+  ul li {
+    background: $greyColor;
   }
+
+  p {
+    color: $orangeColor;
+  }
+}
 </style>
