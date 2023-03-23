@@ -1,10 +1,9 @@
 <script setup lang="ts">
 import Menu from '@/components/layout/menu/index.vue'
-import Footer from '@/components/layout/menu/index.vue'
+import Footer from '@/components/layout/footer/index.vue'
 import { ref } from 'vue'
 
 
-const msg = ref('首页')
 </script>
 
 <template>

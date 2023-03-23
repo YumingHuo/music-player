@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 
-const msg = ref('footer11')
+const msg = ref('footer')
 </script>
 
 <template>
