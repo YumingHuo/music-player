@@ -21,18 +21,5 @@ import { ref } from 'vue'
 </template>
 
 <style scoped lang="scss">
-$orangeColor: #f60;
-$greyColor: #f3f3f3;
 
-.box {
-  color: $orangeColor;
-
-  ul li {
-    background: $greyColor;
-  }
-
-  p {
-    color: $orangeColor;
-  }
-}
 </style>
