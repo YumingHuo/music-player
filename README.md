@@ -1,1 +1,3 @@
-# music-player
+# Music-Player
+
+This is a music player.
