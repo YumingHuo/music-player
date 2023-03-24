@@ -13,6 +13,15 @@ import 'swiper/swiper-bundle.css'
         <SwiperSlide>
             slide - 2
         </SwiperSlide>
+        <SwiperSlide>
+            slide - 3
+        </SwiperSlide>
+        <SwiperSlide>
+            slide - 4
+        </SwiperSlide>
+        <SwiperSlide>
+            slide - 5
+        </SwiperSlide>
     </Swiper>
 </template>
 
